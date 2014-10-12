@@ -1,6 +1,6 @@
 {
   "name": "get-pdf-urls",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get all urls from a pdf file.",
   "license": "MIT",
   "repository": "hemanth/get-pdf-urls",
