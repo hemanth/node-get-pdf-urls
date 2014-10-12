@@ -1,0 +1,45 @@
+{
+  "name": "get-pdf-urls",
+  "version": "0.0.0",
+  "description": "Get all urls from a pdf file.",
+  "license": "MIT",
+  "repository": "hemanth/get-pdf-urls",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "bin": {
+    "get-urls": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "urls",
+    "url",
+    "uri",
+    "get",
+    "extract",
+    "find",
+    "scrape",
+    "pdf",
+    "string",
+    "bin",
+    "cli"
+  ],
+  "dependencies": {
+    "get-urls": "^2.0.0",
+    "pdf-to-text": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
